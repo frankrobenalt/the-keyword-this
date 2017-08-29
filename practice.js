@@ -5,11 +5,11 @@
 
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
-      //Answer - 
+      //Answer - implicit - when this is used inside an object and not bound to any specific object, explicit - when we explicitly bind a context to a function , default - will be bound to the object window, 'new' - When a function is called with new, it does not care about implicit, explicit, or hard binding, it just creates the new context.
 
   // 3) What does .bind do?
 
-      //Answer
+      //Answer - it makes the context for the use of this permanent to a specific object.
 
 
 //Next Problem
